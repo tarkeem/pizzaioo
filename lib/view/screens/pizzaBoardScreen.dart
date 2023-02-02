@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:pizza/controller/provider/cart.dart';
-import 'package:pizza/model/ingredient.dart';
+import 'package:pizza/model/pizza.dart';
 import 'package:provider/provider.dart';
 
 class pizzaBoardSc extends StatelessWidget {
@@ -99,9 +99,9 @@ class __pizzaBoardState extends State<_pizzaBoard> {
                           //fit: StackFit.loose,
                           children: [
                             Image.asset(
-                              'assets/images/dish.png',
+                              'assets/images/pizzaImages/dish.png',
                             ),
-                            Image.asset('assets/images/pizza-1.png'),
+                            Image.asset('assets/images/pizzaImages/pizza-1.png'),
                           ],
                         ),
                       ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pizza/controller/provider/cart.dart';
+import 'package:pizza/view/screens/coffeSection.dart';
 import 'package:pizza/view/screens/pizzaBoardScreen.dart';
 import 'package:provider/provider.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:pizzaBoardSc()
+      home:coffeeSc()
     );
   }
 }
