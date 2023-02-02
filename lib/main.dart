@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:ChangeNotifierProvider(create: (context) => cart(),child: pizzaBoardSc(),)
+      home:pizzaBoardSc()
     );
   }
 }

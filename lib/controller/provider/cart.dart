@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+/*import 'package:flutter/cupertino.dart';
 
 class cart extends ChangeNotifier {
   double totalPrice = 20;
@@ -6,4 +6,4 @@ class cart extends ChangeNotifier {
     totalPrice++;
     notifyListeners();
   }
-}
+}*/
