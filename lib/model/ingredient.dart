@@ -15,11 +15,11 @@ List<ingredient> ingredientList = [
      Offset(0.6, 0.6),
   ]),
   ingredient('assets/images/ingredient/chili.png', [
-    Offset(0.3, 0.6),
-    Offset(0.65, 0.3),
-    Offset(0.45, 0.3),
-    Offset(0.25, 0.25),
-     Offset(0.6, 0.25),
+    Offset(0.3, 0.5),
+    Offset(0.5, 0.4),
+    Offset(0.6, 0.4),
+    Offset(0.3, 0.4),
+     Offset(0.4, 0.4),
   ]),
   ingredient('assets/images/ingredient/olive.png', [
      Offset(0.3, 0.6),
